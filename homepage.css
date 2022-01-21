@@ -1,0 +1,56 @@
+.area-1{
+    display: flex;
+    background-color: rgb(201, 199, 202);
+    align-items: center;
+
+}
+.area-2{
+    position: relative;
+    background-color: rgb(170, 126, 212);
+    height: 350px;
+}
+.area-3{
+    background-color: rgb(233, 203, 163);
+    height: 100px;
+}
+
+
+/* 商標圖＋導覽選項列 */
+.guideTool{
+    display: inline;
+    padding-left: 20px;
+}
+.guideToolItem{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: rgb(97, 93, 99);
+    height: 70px;
+}
+.guideToolItem:hover{
+    text-shadow: 1px 1px 3px rgb(171, 160, 179);
+}
+
+.article{
+    float: left;
+    position: relative;
+    margin: auto;
+    width: 600px;
+    
+}
+.articleTitle{
+    position: absolute;
+    background-color: rgba(236, 231, 238, 0.452);
+    color: rgb(254, 251, 255);
+    bottom: 0px;
+    width: 600px;
+    height: 70px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.articlePic:hover{
+    opacity: 0.9;
+}

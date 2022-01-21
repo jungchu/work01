@@ -1,0 +1,88 @@
+.selectedarticle{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(235, 236, 236);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.fa-chevron-circle-left,.fa-chevron-circle-right{
+    color: rgba(143, 181, 188, 0.8);
+    font-size: 35px;
+    margin: 0px 30px;
+}
+
+
+.selectedarticle02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-group, .tab-group{
+    display: inline-block;
+}
+.tab-group{
+    padding: 10px 0px;
+}
+.tab div{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(170, 170, 170);
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content .txt{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 50px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(190, 190, 190, 0.5);
+    backdrop-filter: blur 5;
+}
+
+#radio1:checked ~ .selectedarticle02 .tab-group .tab1 div,
+#radio2:checked ~ .selectedarticle02 .tab-group .tab2 div,
+#radio3:checked ~ .selectedarticle02 .tab-group .tab3 div,
+#radio4:checked ~ .selectedarticle02 .tab-group .tab4 div,
+#radio5:checked ~ .selectedarticle02 .tab-group .tab5 div{
+    background-color: rgb(102, 146, 228);
+}
+.content02,
+.content03,
+.content04,
+.content05{
+    display: none;
+}
+
+#radio2:checked ~ .selectedarticle .content-group .content01,
+#radio3:checked ~ .selectedarticle .content-group .content01,
+#radio4:checked ~ .selectedarticle .content-group .content01,
+#radio5:checked ~ .selectedarticle .content-group .content01{
+    display: none;
+}
+#radio2:checked ~ .selectedarticle .content-group .content02,
+#radio3:checked ~ .selectedarticle .content-group .content03,
+#radio4:checked ~ .selectedarticle .content-group .content04,
+#radio5:checked ~ .selectedarticle .content-group .content05{
+    display: flex;
+}
+
+.panel-control{
+    display: none;
+}
+

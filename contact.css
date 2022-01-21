@@ -1,0 +1,15 @@
+.contact{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(152, 193, 255, 0.8);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+.fa-comments{
+    color: rgb(230, 241, 248);
+    font-size: 40px;
+    padding:15px 0px;
+}

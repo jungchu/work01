@@ -1,0 +1,42 @@
+.footarea{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(155, 176, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.footcontet{
+    display: flex;
+    padding-bottom: 20px;
+}
+.footcontet .item{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px;
+    text-align: center;
+}
+.footcontet .item h3{
+    color: rgb(49, 82, 180);
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.footcontet .item a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: rgb(227, 230, 243);
+    font-size: 14px;
+}
+.footcontet .item a:hover{
+    color: slategray;
+}
+
+.footcontet2{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(120, 148, 190);
+    line-height: 1.5em;
+}
+
